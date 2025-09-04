@@ -73,7 +73,7 @@ export default function WhyChooseUs() {
             Why Choose Umit&apos;s Amazing Services?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            We&apos;re committed to providing Boston with the best appliance repair service. 
+            We&apos;re committed to providing Denver with the best appliance repair service. 
             Here&apos;s what sets us apart from the competition.
           </p>
         </motion.div>

@@ -63,7 +63,7 @@ export default function DryerRepairPage() {
   return (
     <ServicePageTemplate
       title="Dryer Repair"
-      subtitle="Professional gas and electric dryer repair in Boston"
+      subtitle="Professional gas and electric dryer repair in Denver"
       description="Get your clothes dry quickly and safely with expert dryer repairs. Our certified technicians prioritize fire safety while restoring optimal drying performance."
       icon={WrenchScrewdriverIcon}
       gradient="from-amber-500 to-yellow-500"

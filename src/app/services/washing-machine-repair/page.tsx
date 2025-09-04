@@ -63,7 +63,7 @@ export default function WashingMachineRepairPage() {
   return (
     <ServicePageTemplate
       title="Washing Machine Repair"
-      subtitle="Expert washing machine repair services in Boston"
+      subtitle="Expert washing machine repair services in Denver"
       description="Keep your laundry routine running smoothly with professional washing machine repairs. We fix all types of washers from top-loading to front-loading machines."
       icon={Cog8ToothIcon}
       gradient="from-purple-500 to-pink-500"

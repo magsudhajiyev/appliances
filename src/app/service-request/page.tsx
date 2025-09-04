@@ -3,9 +3,9 @@ import ServiceRequestForm from '@/components/forms/ServiceRequestForm'
 import { PhoneIcon, ClockIcon } from '@heroicons/react/24/outline'
 
 export const metadata: Metadata = {
-  title: 'Schedule Appliance Repair Service | Boston | Umit&apos;s Amazing Services',
-  description: 'Schedule your appliance repair service online. Fast, convenient booking for all major appliances in Boston, MA. Same-day service available.',
-  keywords: 'schedule appliance repair, book repair service, Boston appliance service, online booking, Umit Amazing Services',
+  title: 'Schedule Appliance Repair Service | Denver | Umit&apos;s Amazing Services',
+  description: 'Schedule your appliance repair service online. Fast, convenient booking for all major appliances in Denver, CO. Same-day service available.',
+  keywords: 'schedule appliance repair, book repair service, Denver appliance service, online booking, Umit Amazing Services',
 }
 
 export default function ServiceRequestPage() {
@@ -17,7 +17,7 @@ export default function ServiceRequestPage() {
             Schedule Your Repair Service
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Get your appliances fixed by Boston&apos;s most trusted repair service. 
+            Get your appliances fixed by Denver&apos;s most trusted repair service. 
             Fill out the form below and we&apos;ll contact you within 30 minutes.
           </p>
           

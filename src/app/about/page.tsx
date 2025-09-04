@@ -11,9 +11,9 @@ import { Button } from '@/components/ui/Button'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'About Umit&apos;s Amazing Services | Boston&apos;s Trusted Repair Service',
-  description: 'Learn about Umit&apos;s Amazing Services, Boston&apos;s most trusted appliance service company. Licensed, insured, and committed to 100% customer satisfaction.',
-  keywords: 'about Umit Amazing Services, Boston appliance repair company, licensed appliance repair, appliance repair history',
+  title: 'About Umit&apos;s Amazing Services | Denver&apos;s Trusted Repair Service',
+  description: 'Learn about Umit&apos;s Amazing Services, Denver&apos;s most trusted appliance service company. Licensed, insured, and committed to 100% customer satisfaction.',
+  keywords: 'about Umit Amazing Services, Denver appliance repair company, licensed appliance repair, appliance repair history',
 }
 
 export default function AboutPage() {
@@ -27,7 +27,7 @@ export default function AboutPage() {
               About Umit&apos;s Amazing Services
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              For over a decade, we&apos;ve been Boston&apos;s most trusted appliance repair service, 
+              For over a decade, we&apos;ve been Denver&apos;s most trusted appliance repair service, 
               helping thousands of families keep their homes running smoothly with reliable, 
               professional appliance repairs.
             </p>
@@ -46,10 +46,10 @@ export default function AboutPage() {
                   <p>
                     Founded in 2013, Umit&apos;s Amazing Services started with a simple mission: 
                     to provide honest, reliable, and professional appliance repair services 
-                    to the Greater Boston area.
+                    to the Greater Denver area.
                   </p>
                   <p>
-                    What began as a small family business has grown into Boston&apos;s most 
+                    What began as a small family business has grown into Denver&apos;s most 
                     trusted appliance repair service, serving thousands of satisfied customers 
                     across Cambridge, Somerville, Newton, and beyond.
                   </p>

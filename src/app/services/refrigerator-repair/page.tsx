@@ -63,7 +63,7 @@ export default function RefrigeratorRepairPage() {
   return (
     <ServicePageTemplate
       title="Refrigerator Repair"
-      subtitle="Professional refrigerator repair services in Boston"
+      subtitle="Professional refrigerator repair services in Denver"
       description="Keep your food fresh and safe with expert refrigerator repairs. Our certified technicians fix all major brands and models with same-day service available."
       icon={CubeIcon}
       gradient="from-blue-500 to-cyan-500"

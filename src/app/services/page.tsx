@@ -11,9 +11,9 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/Button'
 
 export const metadata: Metadata = {
-  title: 'Appliance Repair Services Boston | All Major Brands | Fasteny Appliance',
-  description: 'Complete appliance repair services in Boston, MA. Refrigerator, oven, dishwasher, washer, and dryer repair. Same-day service available for all major brands.',
-  keywords: 'appliance repair services Boston, refrigerator repair, oven repair, dishwasher repair, washer repair, dryer repair',
+  title: 'Appliance Repair Services Denver | All Major Brands | Fasteny Appliance',
+  description: 'Complete appliance repair services in Denver, CO. Refrigerator, oven, dishwasher, washer, and dryer repair. Same-day service available for all major brands.',
+  keywords: 'appliance repair services Denver, refrigerator repair, oven repair, dishwasher repair, washer repair, dryer repair',
 }
 
 const services = [
@@ -90,7 +90,7 @@ export default function ServicesPage() {
               Complete Appliance Repair Services
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              Professional repair services for all major home appliances in Boston and surrounding areas. 
+              Professional repair services for all major home appliances in Denver and surrounding areas. 
               Same-day service available with 100% satisfaction guaranteed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -228,7 +228,7 @@ export default function ServicesPage() {
             </h2>
             <p className="text-xl text-blue-100 mb-8">
               Don&apos;t let broken appliances disrupt your daily routine. 
-              Contact Boston&apos;s most trusted repair service today.
+              Contact Denver&apos;s most trusted repair service today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

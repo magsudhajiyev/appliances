@@ -35,7 +35,7 @@ export default function Hero() {
               className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight"
               {...fadeInUp}
             >
-              Boston&apos;s Most Trusted
+              Denver&apos;s Most Trusted
               <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-amber-400 bg-clip-text text-transparent block mt-2">
                 Appliance Repair Service
               </span>

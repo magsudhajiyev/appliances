@@ -4,9 +4,9 @@ import { Button } from '@/components/ui/Button'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Contact Umit&apos;s Amazing Services | Boston, MA | (555) 123-4567',
-  description: 'Contact Umit&apos;s Amazing Services for expert service in Boston, MA. Call (555) 123-4567 or visit us at 123 Main Street Suite 456, Boston, MA.',
-  keywords: 'contact appliance repair Boston, Umit Amazing Services contact, Boston repair service phone',
+  title: 'Contact Umit&apos;s Amazing Services | Denver, CO | (555) 123-4567',
+  description: 'Contact Umit&apos;s Amazing Services for expert service in Denver, CO. Call (555) 123-4567 or visit us at 123 Main Street Suite 456, Denver, CO.',
+  keywords: 'contact appliance repair Denver, Umit Amazing Services contact, Denver repair service phone',
 }
 
 export default function ContactPage() {
@@ -18,7 +18,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Ready to get your appliances fixed? Contact Boston&apos;s most trusted appliance repair service today.
+            Ready to get your appliances fixed? Contact Denver&apos;s most trusted appliance repair service today.
           </p>
         </div>
 
@@ -72,9 +72,9 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-gray-900 mb-1">Service Area</h3>
                     <div className="text-gray-700">
                       <p>123 Main Street Suite 456</p>
-                      <p>Boston, MA 02101</p>
+                      <p>Denver, CO 80202</p>
                     </div>
-                    <p className="text-gray-600 text-sm mt-1">Serving Greater Boston Area</p>
+                    <p className="text-gray-600 text-sm mt-1">Serving Greater Denver Area</p>
                   </div>
                 </div>
 
@@ -161,9 +161,9 @@ export default function ContactPage() {
               
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  'Boston', 'Cambridge', 'Somerville', 'Newton',
-                  'Brookline', 'Revere', 'Chelsea', 'Malden',
-                  'Medford', 'Arlington', 'Watertown', 'Belmont'
+                  'Denver', 'Aurora', 'Lakewood', 'Westminster',
+                  'Arvada', 'Thornton', 'Centennial', 'Boulder',
+                  'Broomfield', 'Commerce City', 'Northglenn', 'Wheat Ridge'
                 ].map((city) => (
                   <div key={city} className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>

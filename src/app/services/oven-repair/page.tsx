@@ -63,7 +63,7 @@ export default function OvenRepairPage() {
   return (
     <ServicePageTemplate
       title="Oven & Range Repair"
-      subtitle="Expert gas and electric oven repair in Boston"
+      subtitle="Expert gas and electric oven repair in Denver"
       description="Get back to cooking with professional oven and range repairs. Our certified technicians handle both gas and electric units with safety as our top priority."
       icon={FireIcon}
       gradient="from-orange-500 to-red-500"

@@ -23,11 +23,11 @@ const footerSections = {
     { name: 'Service Request', href: '/service-request' },
   ],
   serviceAreas: [
-    'Boston, MA',
-    'Cambridge, MA', 
-    'Somerville, MA',
-    'Newton, MA',
-    'Brookline, MA'
+    'Denver, CO',
+    'Aurora, CO', 
+    'Lakewood, CO',
+    'Westminster, CO',
+    'Arvada, CO'
   ]
 }
 
@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed">
-                Boston&apos;s most trusted appliance repair service. Same-day service, transparent pricing, and 100% satisfaction guaranteed.
+                Denver&apos;s most trusted appliance repair service. Same-day service, transparent pricing, and 100% satisfaction guaranteed.
               </p>
             </div>
 
@@ -142,8 +142,8 @@ export default function Footer() {
                 <MapPinIcon className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-white">123 Main Street Suite 456</p>
-                  <p className="text-white">Boston, MA 02101</p>
-                  <p className="text-gray-400 text-sm">Serving Greater Boston Area</p>
+                  <p className="text-white">Denver, CO 80202</p>
+                  <p className="text-gray-400 text-sm">Serving Greater Denver Area</p>
                 </div>
               </div>
             </div>

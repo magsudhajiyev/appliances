@@ -63,7 +63,7 @@ export default function DishwasherRepairPage() {
   return (
     <ServicePageTemplate
       title="Dishwasher Repair"
-      subtitle="Professional dishwasher repair services in Boston"
+      subtitle="Professional dishwasher repair services in Denver"
       description="Get clean dishes every time with expert dishwasher repairs. Our technicians fix drainage issues, cleaning problems, and all other dishwasher concerns."
       icon={SparklesIcon}
       gradient="from-teal-500 to-green-500"

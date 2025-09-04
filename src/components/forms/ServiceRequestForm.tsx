@@ -293,7 +293,7 @@ export default function ServiceRequestForm() {
               <input
                 type="text"
                 {...register('address')}
-                placeholder="123 Main Street, Boston, MA 02101"
+                placeholder="123 Main Street, Denver, CO 80202"
                 className="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
               />
               {errors.address && (
