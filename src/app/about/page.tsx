@@ -136,7 +136,7 @@ export default function AboutPage() {
                   description: 'We stand behind our work with warranties and guarantees.',
                   color: 'indigo'
                 }
-              ].map((value, index) => (
+              ].map((value) => (
                 <div key={value.title} className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
                   <div className={`w-12 h-12 bg-${value.color}-100 rounded-xl flex items-center justify-center mb-4`}>
                     <value.icon className={`w-6 h-6 text-${value.color}-600`} />

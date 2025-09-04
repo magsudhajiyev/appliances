@@ -100,7 +100,7 @@ export default function ContactPage() {
             <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-2xl p-8 text-white shadow-lg">
               <h3 className="text-2xl font-bold mb-4">Emergency Service Available</h3>
               <p className="text-red-100 mb-6 leading-relaxed">
-                Appliance emergency? Don't wait! We offer 24/7 emergency repair service for urgent situations.
+                Appliance emergency? Don&apos;t wait! We offer 24/7 emergency repair service for urgent situations.
                 Additional fees may apply for after-hours service.
               </p>
               <Button 
@@ -173,7 +173,7 @@ export default function ContactPage() {
               </div>
               
               <p className="text-gray-600 text-sm mt-6 p-4 bg-blue-50 rounded-xl">
-                Don't see your area listed? We may still service your location. 
+                Don&apos;t see your area listed? We may still service your location. 
                 Call us to confirm service availability in your area.
               </p>
             </div>

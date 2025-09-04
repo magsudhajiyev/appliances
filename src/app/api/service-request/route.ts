@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
-import { prisma } from '@/lib/prisma'
+// import { prisma } from '@/lib/prisma' // Commented out for demo - no database configured
 
 const serviceRequestSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -22,22 +22,16 @@ export async function POST(request: NextRequest) {
     // Validate the request data
     const validatedData = serviceRequestSchema.parse(body)
 
-    // Create the service request in the database
-    const serviceRequest = await prisma.serviceRequest.create({
-      data: {
-        name: validatedData.name,
-        phone: validatedData.phone,
-        email: validatedData.email,
-        address: validatedData.address,
-        appliance: validatedData.appliance,
-        brand: validatedData.brand || '',
-        model: validatedData.model || '',
-        issue: validatedData.issue,
-        urgency: validatedData.urgency,
-        preferredContact: validatedData.preferredContact,
-        status: 'pending'
-      }
-    })
+    // For demo purposes, we'll just log the data instead of saving to database
+    // In production, you would save to database here
+    console.log('Service request received:', validatedData)
+    
+    // Simulate a database record with an ID
+    const serviceRequest = {
+      id: Math.random().toString(36).substring(2, 15),
+      ...validatedData,
+      status: 'pending'
+    }
 
     // Here you would typically send notification emails
     // to both the customer and the business
@@ -60,7 +54,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         { 
           error: 'Validation failed',
-          details: error.errors.map(err => ({
+          details: error.issues.map(err => ({
             field: err.path.join('.'),
             message: err.message
           }))

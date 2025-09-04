@@ -92,12 +92,12 @@ export default function ServiceProcess() {
           <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-1 bg-gray-200 h-full" />
 
           <div className="space-y-12 lg:space-y-20">
-            {processSteps.map((step, index) => (
+            {processSteps.map((step, stepIndex) => (
               <motion.div
                 key={step.step}
                 variants={itemVariants}
                 className={`flex flex-col lg:flex-row items-center gap-8 ${
-                  index % 2 === 1 ? 'lg:flex-row-reverse' : ''
+                  stepIndex % 2 === 1 ? 'lg:flex-row-reverse' : ''
                 }`}
               >
                 {/* Content */}

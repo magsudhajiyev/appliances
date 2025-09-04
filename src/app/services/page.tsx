@@ -54,7 +54,7 @@ const services = [
     icon: Cog8ToothIcon,
     link: '/services/washing-machine-repair',
     gradient: 'from-purple-500 to-pink-500',
-    commonIssues: ['Not spinning', 'Not draining', 'Excessive vibration', 'Door won\'t lock'],
+    commonIssues: ['Not spinning', 'Not draining', 'Excessive vibration', 'Door won&apos;t lock'],
     brands: ['Samsung', 'LG', 'Whirlpool', 'GE', 'Maytag', 'Electrolux']
   },
   {
@@ -181,7 +181,7 @@ export default function ServicesPage() {
               What Makes Our Service Different
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We don't just fix appliances - we provide a complete service experience 
+              We don&apos;t just fix appliances - we provide a complete service experience 
               that puts your satisfaction first.
             </p>
           </div>
@@ -227,7 +227,7 @@ export default function ServicesPage() {
               Ready to Get Your Appliances Fixed?
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Don't let broken appliances disrupt your daily routine. 
+              Don&apos;t let broken appliances disrupt your daily routine. 
               Contact Boston&apos;s most trusted repair service today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

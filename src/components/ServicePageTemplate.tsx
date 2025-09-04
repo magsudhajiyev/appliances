@@ -7,8 +7,7 @@ import {
   PhoneIcon,
   CheckCircleIcon,
   WrenchScrewdriverIcon,
-  ClockIcon,
-  ShieldCheckIcon
+  ClockIcon
 } from '@heroicons/react/24/outline'
 import { Button } from '@/components/ui/Button'
 
@@ -118,12 +117,12 @@ export default function ServicePageTemplate({
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {commonProblems.map((problem, index) => (
+            {commonProblems.map((problem, problemIndex) => (
               <motion.div
                 key={problem}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                transition={{ duration: 0.6, delay: problemIndex * 0.1 }}
                 className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 shadow-lg border border-gray-100"
               >
                 <div className="flex items-center space-x-3">
@@ -146,12 +145,12 @@ export default function ServicePageTemplate({
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {whyChooseUs.map((reason, index) => (
+            {whyChooseUs.map((reason, reasonIndex) => (
               <motion.div
                 key={reason}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                transition={{ duration: 0.6, delay: reasonIndex * 0.1 }}
                 className="text-center"
               >
                 <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mb-4 mx-auto shadow-lg">
@@ -177,12 +176,12 @@ export default function ServicePageTemplate({
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            {brands.map((brand, index) => (
+            {brands.map((brand, brandIndex) => (
               <motion.div
                 key={brand}
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={inView ? { opacity: 1, scale: 1 } : {}}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{ duration: 0.5, delay: brandIndex * 0.1 }}
                 className="bg-gray-50 rounded-xl p-6 flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 border border-gray-100"
               >
                 <span className="text-lg font-bold text-gray-700">{brand}</span>
@@ -205,17 +204,17 @@ export default function ServicePageTemplate({
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {maintenanceTips.map((tip, index) => (
+            {maintenanceTips.map((tip, tipIndex) => (
               <motion.div
                 key={tip}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
+                initial={{ opacity: 0, x: tipIndex % 2 === 0 ? -30 : 30 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                transition={{ duration: 0.6, delay: tipIndex * 0.1 }}
                 className="bg-white rounded-xl p-6 shadow-lg border border-gray-100"
               >
                 <div className="flex items-start space-x-3">
                   <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-sm">{index + 1}</span>
+                    <span className="text-white font-bold text-sm">{tipIndex + 1}</span>
                   </div>
                   <p className="text-gray-700 leading-relaxed">{tip}</p>
                 </div>
@@ -235,12 +234,12 @@ export default function ServicePageTemplate({
           </div>
 
           <div className="max-w-3xl mx-auto space-y-6">
-            {faqs.map((faq, index) => (
+            {faqs.map((faq, faqIndex) => (
               <motion.div
                 key={faq.question}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                transition={{ duration: 0.6, delay: faqIndex * 0.1 }}
                 className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 shadow-lg border border-gray-100"
               >
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">

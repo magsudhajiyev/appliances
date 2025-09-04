@@ -65,7 +65,7 @@ export default function BrandsWeService() {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          {brands.map((brand, index) => (
+          {brands.map((brand) => (
             <motion.div
               key={brand.name}
               variants={itemVariants}
@@ -90,7 +90,7 @@ export default function BrandsWeService() {
         >
           <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl p-8 border border-blue-100">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Don't See Your Brand?
+              Don&apos;t See Your Brand?
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
               We service many more brands than listed here. Our technicians are trained 

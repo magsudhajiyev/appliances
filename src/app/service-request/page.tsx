@@ -18,7 +18,7 @@ export default function ServiceRequestPage() {
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Get your appliances fixed by Boston&apos;s most trusted repair service. 
-            Fill out the form below and we'll contact you within 30 minutes.
+            Fill out the form below and we&apos;ll contact you within 30 minutes.
           </p>
           
           {/* Quick Contact Options */}
@@ -47,7 +47,7 @@ export default function ServiceRequestPage() {
                 <PhoneIcon className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Quick Response</h3>
-              <p className="text-gray-600 text-sm">We'll contact you within 30 minutes to confirm your appointment</p>
+              <p className="text-gray-600 text-sm">We&apos;ll contact you within 30 minutes to confirm your appointment</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-lg">
               <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-4">
@@ -61,7 +61,7 @@ export default function ServiceRequestPage() {
                 <span className="text-purple-600 font-bold">100%</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Satisfaction Guaranteed</h3>
-              <p className="text-gray-600 text-sm">We're not happy until you're completely satisfied</p>
+              <p className="text-gray-600 text-sm">We&apos;re not happy until you&apos;re completely satisfied</p>
             </div>
           </div>
         </div>

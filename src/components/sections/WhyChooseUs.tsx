@@ -70,11 +70,11 @@ export default function WhyChooseUs() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Why Choose Fasteny Appliance Repair?
+            Why Choose Umit&apos;s Amazing Services?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             We&apos;re committed to providing Boston with the best appliance repair service. 
-            Here's what sets us apart from the competition.
+            Here&apos;s what sets us apart from the competition.
           </p>
         </motion.div>
 
@@ -85,7 +85,7 @@ export default function WhyChooseUs() {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          {features.map((feature, index) => (
+          {features.map((feature) => (
             <motion.div
               key={feature.name}
               variants={itemVariants}

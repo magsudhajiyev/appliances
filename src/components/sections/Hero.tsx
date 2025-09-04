@@ -63,7 +63,7 @@ export default function Hero() {
                 "All Major Brands", 
                 "Transparent Pricing",
                 "Licensed & Insured"
-              ].map((point, index) => (
+              ].map((point) => (
                 <div key={point} className="flex items-center justify-center space-x-2 text-white">
                   <CheckCircleIcon className="w-5 h-5 text-green-400" />
                   <span className="text-sm font-medium">{point}</span>
