@@ -1,0 +1,57 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ServiceRequest {
+  id          String   @id @default(cuid())
+  name        String
+  phone       String
+  email       String
+  address     String
+  appliance   String
+  brand       String?
+  model       String?
+  issue       String
+  urgency     String   @default("within_week")
+  status      String   @default("pending")
+  preferredContact String @default("either")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@map("service_requests")
+}
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  message   String
+  type      String   @default("general")
+  status    String   @default("new")
+  createdAt DateTime @default(now())
+  
+  @@map("contact_submissions")
+}
+
+model BlogPost {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  content     String
+  excerpt     String?
+  published   Boolean  @default(false)
+  authorName  String   @default("Admin")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@map("blog_posts")
+}
